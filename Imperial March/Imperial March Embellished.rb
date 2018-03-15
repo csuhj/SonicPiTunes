@@ -40,5 +40,5 @@ live_loop :loop_melody do
     play_pattern_timed [:F5, :E5, :Ds5, :E5, :r, :Gs, :Cs5, :r, :C5, :r], [qu, sq, qu, sq, qu, qu, qu, qu, sq, sq]
     play_pattern_timed [:B, :As, :A, :As, :r, :Ds, :Fs, :r], [sq, qu, qu, sq, qu, qu, qu, qu, sq, qu]
     play_pattern_timed [:Eb, :r, :Bb, :G, :Eb, :r, :Bb, :G], [qu, sq, sq, cr, qu, sq, sq, mi]
-    end
   end
+end
