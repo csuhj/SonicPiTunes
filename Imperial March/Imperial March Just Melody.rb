@@ -10,6 +10,7 @@ sq=bar_length/16.0 #semiquaver - sixteenth note
 
 live_loop :loop_melody do
   use_synth :piano
+  
   play_pattern_timed [:G, :G, :G, :Eb, :r, :Bb, :G, :Eb, :r, :Bb, :G], [cr, cr, cr, qu, sq, sq, cr, qu, sq, sq, mi]
   play_pattern_timed [:D5, :D5, :D5, :Ds5, :r, :As, :Fs, :Eb, :r, :Bb, :G], [cr, cr, cr, qu, sq, sq, cr, qu, sq, sq, mi]
   play_pattern_timed [:G5, :G, :r, :G, :G5, :Fs5, :r], [cr, qu, sq, sq, cr, sq, sq]
